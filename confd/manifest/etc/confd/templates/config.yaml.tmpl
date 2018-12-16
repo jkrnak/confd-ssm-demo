@@ -1,0 +1,4 @@
+database:
+{{- range gets "/client-api/database/*"}}
+  {{ .Key | base }}: {{.Value}}
+{{- end}}

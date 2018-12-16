@@ -1,0 +1,6 @@
+[template]
+src = "dotenv.tmpl"
+dest = "/target/.env"
+keys = [
+    "/client-api",
+]
