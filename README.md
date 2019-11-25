@@ -28,7 +28,7 @@ The `awscli` container is not used for anything, it's just there to compare the 
 
 Just run
 ```bash
-docker-comopse up --build
+docker-compose up --build
 ```
 
 The template files will be generated in the `target` folder.
